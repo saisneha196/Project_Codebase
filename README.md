@@ -1,4 +1,5 @@
 This repository contains a basic implementation of a shell in C programming language. The shell provides a command-line interface for users to interact with their operating system.
+
 Commands used:
 1. `cd`: Change directory - change the current working directory.
 2. `help`: Display help information - provide assistance on how to use the shell and its built-in commands.
@@ -11,13 +12,8 @@ Commands used:
 9. `touch`: Touch - create an empty file or update the access and modification times of an existing file.
 
 Features :
-Command Execution: Users can execute commands provided by the operating system or built-in commands provided by the shell itself.
-Directory Manipulation: Built-in commands like cd, removedirectory, and makedirectory allow users to navigate through directories and create or remove directories.
-File Operations: Built-in commands like touch enable users to create files.
-Output Redirection: The echo command supports basic output redirection.
-Text File Analysis: The wc command provides functionality to count lines, words, and characters in a text file.
-Help Functionality: Users can access help documentation for built-in commands using the help command.
-Exit Mechanism: The exit command allows users to gracefully exit the shell.
+
+The simple shell implementation provides basic command-line functionality similar to traditional Unix shells. It supports essential features such as changing directories (cd), displaying help information (help), exiting the shell (exit), creating and removing directories (makedirectory and removedirectory), printing the current working directory (pwd), counting lines, words, and characters in a text file (wc), and creating or updating file timestamps (touch). Additionally, the shell incorporates error handling for various file and directory operations, including directory creation, removal, and file opening. It utilizes fork-exec mechanism for executing commands, allowing for the execution of both built-in shell commands and external programs. Overall, the simple shell offers a lightweight and functional command-line interface suitable for basic system navigation and file management tasks.
 Usage :
 Clone the repository to your local machine.
 Compile the source code using a C compiler.
