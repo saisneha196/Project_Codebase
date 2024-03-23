@@ -14,7 +14,9 @@ Commands used:
 Features :
 
 The simple shell implementation provides basic command-line functionality similar to traditional Unix shells. It supports essential features such as changing directories (cd), displaying help information (help), exiting the shell (exit), creating and removing directories (makedirectory and removedirectory), printing the current working directory (pwd), counting lines, words, and characters in a text file (wc), and creating or updating file timestamps (touch). Additionally, the shell incorporates error handling for various file and directory operations, including directory creation, removal, and file opening. It utilizes fork-exec mechanism for executing commands, allowing for the execution of both built-in shell commands and external programs. Overall, the simple shell offers a lightweight and functional command-line interface suitable for basic system navigation and file management tasks.
+
 Usage :
+
 Clone the repository to your local machine.
 Compile the source code using a C compiler.
 Run the executable file to start the shell.
