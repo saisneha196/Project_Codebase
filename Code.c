@@ -455,7 +455,7 @@ void shell_loop(void)
 int main(int argc,char **argv)
 {
 printf(">
-   printf("                                                 IMPLEMENTATION OF SIMPLE SHELL\n ");
+   printf("IMPLEMENTATION OF SIMPLE SHELL\n ");
                                                                              
    printf(">
    // Run command loop.
